@@ -1,4 +1,4 @@
-// Announce page changes for screen readers
+// Announce page changes for screen reader
 function announceToScreenReader(message) {
     const announcement = document.createElement('div');
     announcement.setAttribute('aria-live', 'polite');
